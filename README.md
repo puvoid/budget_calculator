@@ -1,63 +1,73 @@
-# Advanced Budget Calculator
- 
-## Overview
-The Advanced Budget Calculator is a Tkinter-based application that helps users track their income, expenses, and recurring transactions. It provides a detailed budget breakdown, allows users to visualize financial data with pie charts, and supports importing/exporting data in CSV and TXT formats.
-## Features
-**Income & Expense Tracking:** Easily add and remove incomes and expenses.\
-**Recurring Transactions:** Mark recurring incomes or expenses for better financial planning.\
-Expense Categorization: Organize expenses into predefined categories.\
-**Budget Summary:** Provides a breakdown of total income, expenses, and savings.\
-**Graphical Representation:** Displays a pie chart of income vs. expenses.\
-**Data Import & Export:** Export budget breakdown to TXT or CSV.
-Import data from a CSV file.\
-**User-Friendly Interface:** Built with Tkinter for a simple and intuitive experience.\
- 
-## Installation
-Ensure you have Python 3.x installed on your system./
-Install the required dependencies:\
-pip install matplotlib
- 
-**Running the Application**\
-Run the Python script:\
-python budget_calculator.py
+# Advanced Budget Breakdown
 
-**Dependencies**\
-Python 3.x\
-Tkinter (built into Python)\
-Matplotlib (for graphs)\
-CSV Handling (for import/export functionality)\
-## Usage/Examples
-***How to Use***\
-**Adding Income**\
-Enter a description and amount.\
-Check "Recurring?" if applicable.\
-Click "Add Income".
- 
-**Adding Expenses**\
-Enter a description, amount, and category.\
-Check "Recurring?" if applicable.\
-Click "Add Expense".
- 
-**Viewing Summary**\
-Click "Calculate Budget" to get a financial breakdown.\
-Click "Summary" to see the full breakdown.
- 
-**Managing Recurring Transactions**\
-View all recurring transactions in the Recurring Transactions tab.\
-Click "Remove Selected Recurring" to delete an entry.
- 
-**Exporting & Importing Data**\
-Export data as CSV or TXT.\
-Import budget data from a CSV file.
- 
- 
-## FeedbackAuthor: 
-Pu043431Void\
-Version: 1.10.2.1 \
-Release Date: 2.23.25
- 
-**Contributions**\
-Contributions are welcome! If you have suggestions or improvements, feel free to fork this repository and submit a pull request. 🚀
- 
-**Issues & Support**\
-If you encounter any bugs or have feature requests, please create an issue in the repository.
+## Overview
+
+The Advanced Budget Breakdown is a GUI-based budgeting application that helps users efficiently manage and analyze their finances. This tool provides various features such as encrypted data storage, budget visualization, and an intuitive tabbed interface for easy navigation.
+
+## Features
+
+Graphical User Interface (GUI) using Tkinter.
+
+Budget summary and breakdown in multiple tabbed sections.
+
+Data encryption using the cryptography library to ensure secure budget storage.
+
+Graph generation using matplotlib for better financial analysis.
+
+File handling for saving and loading budget data in CSV format.
+
+## Installation
+
+**Prerequisites**
+
+Ensure you have Python 3.8+ installed on your system.
+
+**Required Dependencies**
+
+To install the required dependencies, run the following command:
+
+```
+pip install -r requirements.txt
+```
+
+If you do not have a requirements.txt file, you can manually install the dependencies:
+
+```
+pip install cryptography matplotlib tkinter
+```
+
+## Usage
+
+**Run the application:**
+
+```
+python GUI_Budget_Breakdown.py
+```
+
+Navigate through the various tabs to enter and analyze budget data.
+
+Save or load budget files in CSV format for record-keeping.
+
+Use the encryption feature to securely store budget data.
+
+## File Handling
+
+Saving Budget Data: Saves entered data in a CSV file.
+
+Loading Budget Data: Loads an existing budget CSV file.
+
+Encrypted Storage: Protects sensitive financial data.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contributing
+
+If you wish to contribute to this project, please submit a pull request with a clear description of your changes.
+
+## Contact
+
+For any inquiries or support, feel free to create an issue on this repository.
+
+
